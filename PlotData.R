@@ -1,5 +1,6 @@
 rm(list=ls())
 
+
 library(tidyverse)
 library(ggthemes)
 library(scales)
@@ -8,7 +9,7 @@ library(Rmisc)
 
 d.raw = data.frame()
 
-setwd("/Users/caterinamagri/Dropbox (KonkLab)/Research-SizeCurvature/SizeCurvinessfMRI/Experiment-Behavior-RerunbyStella/SizeCurv_Rerun_Reanalysis_ByCat/")
+setwd("~/Dropbox (KonkLab)/Research-SizeCurvature/SizeCurvinessfMRI/Experiment-Behavior-RerunbyStella/SizeCurv_Rerun_Reanalysis_ByCat/")
 Data_conds <- read.csv2("Analysis_cm/AllData_conds.csv", header = TRUE, sep = ",", quote = "\"",dec = ".", fill = TRUE, comment.char = "")
 d.raw <- Data_conds;
 

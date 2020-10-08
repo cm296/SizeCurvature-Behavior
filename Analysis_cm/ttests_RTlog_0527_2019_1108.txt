@@ -1,0 +1,60 @@
+t-test for task JudgeCurviness between conditions B B and B C
+H: 1 p-value: 0.003 tstat: -3.337 df: 23
+
+
+***************************************
+t-test for task JudgeCurviness between conditions B B and S B
+H: 1 p-value: 0.000 tstat: -4.224 df: 23
+
+
+***************************************
+t-test for task JudgeCurviness between conditions B B and S C
+H: 0 p-value: 0.262 tstat: -1.150 df: 23
+
+
+***************************************
+t-test for task JudgeCurviness between conditions B C and S B
+H: 0 p-value: 0.929 tstat: 0.091 df: 23
+
+
+***************************************
+t-test for task JudgeCurviness between conditions B C and S C
+H: 1 p-value: 0.012 tstat: 2.733 df: 23
+
+
+***************************************
+t-test for task JudgeCurviness between conditions S B and S C
+H: 0 p-value: 0.086 tstat: 1.796 df: 23
+
+
+***************************************
+t-test for task JudgeSize between conditions B B and B C
+H: 1 p-value: 0.000 tstat: -5.224 df: 23
+
+
+***************************************
+t-test for task JudgeSize between conditions B B and S B
+H: 1 p-value: 0.000 tstat: -5.534 df: 23
+
+
+***************************************
+t-test for task JudgeSize between conditions B B and S C
+H: 1 p-value: 0.000 tstat: -5.697 df: 23
+
+
+***************************************
+t-test for task JudgeSize between conditions B C and S B
+H: 1 p-value: 0.008 tstat: -2.926 df: 23
+
+
+***************************************
+t-test for task JudgeSize between conditions B C and S C
+H: 0 p-value: 0.498 tstat: -0.688 df: 23
+
+
+***************************************
+t-test for task JudgeSize between conditions S B and S C
+H: 0 p-value: 0.106 tstat: 1.685 df: 23
+
+
+***************************************

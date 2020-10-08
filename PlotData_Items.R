@@ -4,10 +4,12 @@ library(tidyverse)
 library(ggthemes)
 library(scales)
 library(langcog)
+#library(dplyr)
+#library(ggplot2)
 
 d.raw = data.frame()
 
-setwd("/Users/caterinamagri/Dropbox (KonkLab)/Research-SizeCurvature/Project-SizeCurvatureBehavior_RerunbyStella/SizeCurv_Rerun_Reanalysis_ByCat/")
+setwd("~/Dropbox (KonkLab)/Research-SizeCurvature/SizeCurvature-FinalAnalysis/Experiment-Behavior/git-Analysis/SizeCurvature-Behavior/")
 Data_conds <- read.csv2("Analysis_cm/AllData_conds.csv", header = TRUE, sep = ",", quote = "\"",dec = ".", fill = TRUE, comment.char = "")
 d.raw <- bind_rows(d.raw,Data_conds);
 
